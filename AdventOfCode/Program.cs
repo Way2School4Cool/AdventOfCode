@@ -6,8 +6,13 @@
 
 			switch (day) {
 				case "1":
-					Day1 challenge = new Day1();
-					Console.WriteLine(challenge.Challenge());
+					Day1 challenge1 = new Day1();
+					Console.WriteLine(challenge1.Challenge());
+					break;
+
+				case "2":
+					Day2 challenge2 = new Day2();
+					Console.WriteLine(challenge2.Challenge());
 					break;
 
 				default:
